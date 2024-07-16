@@ -171,7 +171,7 @@ When running `python src/train.py` you should see something like this:
 
 <div align="center">
 
-![](https://github.com/sainatarajan/denct/resources/blob/terminal.png)
+![](https://github.com/sainatarajan/denct/blob/master/resources/blob/terminal.png)
 
 </div>
 
