@@ -1,0 +1,6 @@
+_target_: src.datamodules.denct_datamodule.DenCTDataModule
+data_dir: ${paths.data_dir}
+batch_size: 48
+train_val_test_split: [415, 89, 93]
+num_workers: 16
+pin_memory: True

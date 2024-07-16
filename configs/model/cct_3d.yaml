@@ -1,0 +1,27 @@
+_target_: src.models.cct_module.CCTLitModule
+
+optimizer:
+  _target_: lion_pytorch.Lion
+  _partial_: true
+  lr: 0.00005
+  weight_decay: 0.0
+
+net:
+  _target_: src.models.components.cct_3d.CCT
+  img_size: 64
+  num_frames: 64
+  embedding_dim: 192
+  n_conv_layers: 2
+  n_input_channels: 1
+  frame_kernel_size: 3
+  kernel_size: 7
+  stride: 2
+  padding: 3
+  pooling_kernel_size: 3
+  pooling_stride: 2
+  pooling_padding: 1
+  num_layers: 7
+  num_heads: 6
+  mlp_ratio: 3.
+  num_classes: 2
+  positional_embedding: 'learnable'

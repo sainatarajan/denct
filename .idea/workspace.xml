@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c0c4eaa-a179-46e9-8aed-981c8a6cc2be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/denct-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/denct-ai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/callbacks/default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/callbacks/default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/datamodule/denct.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/datamodule/denct.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/logger/neptune.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/logger/neptune.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/paths/default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/paths/default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/trainer/default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/trainer/default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datamodules/components/denct.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamodules/components/denct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/seresnet50_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/seresnet50_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2aqYLr8b4iuy7j8zvU9ujIQUhjl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/snatarajan/data/denct/denct-ai&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\repo\denc-ai\src\models" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c0c4eaa-a179-46e9-8aed-981c8a6cc2be" name="Changes" comment="" />
+      <created>1705047523414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705047523414</updated>
+      <workItem from="1705047524479" duration="3395000" />
+      <workItem from="1705073454260" duration="8967000" />
+      <workItem from="1705185737367" duration="690000" />
+      <workItem from="1705186732340" duration="20255000" />
+      <workItem from="1705565734270" duration="74000" />
+      <workItem from="1705565830249" duration="130000" />
+      <workItem from="1705568908068" duration="1808000" />
+      <workItem from="1705570975595" duration="386000" />
+      <workItem from="1705575649576" duration="304000" />
+      <workItem from="1705576048091" duration="2626000" />
+      <workItem from="1705594214865" duration="347000" />
+      <workItem from="1705595069831" duration="6495000" />
+      <workItem from="1707387185985" duration="36000" />
+      <workItem from="1707387235527" duration="13000" />
+      <workItem from="1711185332379" duration="2114000" />
+      <workItem from="1712649357894" duration="3474000" />
+      <workItem from="1712652937810" duration="424000" />
+      <workItem from="1712653796390" duration="8432000" />
+      <workItem from="1721133178147" duration="1796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

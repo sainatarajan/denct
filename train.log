@@ -1,0 +1,40 @@
+[2024-07-16 14:56:39,499][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-07-16 14:56:39,503][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-07-16 14:56:39,504][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2024-07-16 14:56:39,540][__main__][INFO] - Instantiating datamodule <src.datamodules.denct_datamodule.DenCTDataModule>
+[2024-07-16 14:56:40,538][__main__][INFO] - Instantiating model <src.models.seresnet50_module.SEResNet50LitModule>
+[2024-07-16 14:56:41,657][__main__][INFO] - Instantiating callbacks...
+[2024-07-16 14:56:41,657][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-07-16 14:56:41,660][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-07-16 14:56:41,661][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-07-16 14:56:41,661][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-07-16 14:56:41,662][__main__][INFO] - Instantiating loggers...
+[2024-07-16 14:56:41,662][src.utils.utils][WARNING] - Logger config is empty.
+[2024-07-16 14:56:41,662][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-07-16 14:56:41,777][__main__][INFO] - Starting training!
+[2024-07-16 14:56:44,521][__main__][INFO] - Starting testing!
+[2024-07-16 14:56:44,521][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2024-07-16 14:56:45,412][__main__][INFO] - Best ckpt path: None
+[2024-07-16 14:56:45,414][src.utils.utils][INFO] - Closing loggers...
+[2024-07-16 14:56:45,414][src.utils.utils][INFO] - Output dir: /media/snatarajan/data/denct/denct-ai/logs/train/runs/2024-07-16_14-56-39
+[2024-07-16 14:56:45,415][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2024-07-16 14:57:07,443][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-07-16 14:57:07,447][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-07-16 14:57:07,447][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2024-07-16 14:57:07,477][__main__][INFO] - Instantiating datamodule <src.datamodules.denct_datamodule.DenCTDataModule>
+[2024-07-16 14:57:08,473][__main__][INFO] - Instantiating model <src.models.seresnet50_module.SEResNet50LitModule>
+[2024-07-16 14:57:09,571][__main__][INFO] - Instantiating callbacks...
+[2024-07-16 14:57:09,572][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-07-16 14:57:09,574][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-07-16 14:57:09,575][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-07-16 14:57:09,575][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-07-16 14:57:09,576][__main__][INFO] - Instantiating loggers...
+[2024-07-16 14:57:09,576][src.utils.utils][WARNING] - Logger config is empty.
+[2024-07-16 14:57:09,576][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-07-16 14:57:09,695][__main__][INFO] - Starting training!
+[2024-07-16 14:57:10,222][__main__][INFO] - Starting testing!
+[2024-07-16 14:57:10,223][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2024-07-16 14:57:11,696][__main__][INFO] - Best ckpt path: None
+[2024-07-16 14:57:11,698][src.utils.utils][INFO] - Closing loggers...
+[2024-07-16 14:57:11,698][src.utils.utils][INFO] - Output dir: /media/snatarajan/data/denct/denct-ai/logs/train/runs/2024-07-16_14-57-07
+[2024-07-16 14:57:11,699][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...

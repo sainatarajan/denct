@@ -1,0 +1,80 @@
+task_name: train
+tags:
+- dev
+train: true
+test: true
+ckpt_path: null
+seed: null
+datamodule:
+  _target_: src.datamodules.denct_datamodule.DenCTDataModule
+  data_dir: ${paths.data_dir}
+  batch_size: 48
+  train_val_test_split:
+  - 415
+  - 89
+  - 93
+  num_workers: 16
+  pin_memory: true
+model:
+  _target_: src.models.seresnet50_module.SEResNet50LitModule
+  optimizer:
+    _target_: torch.optim.Adam
+    _partial_: true
+    lr: 5.0e-05
+    weight_decay: 0.0
+  net:
+    _target_: src.models.components.seresnet50.SEResNet50
+    spatial_dims: 3
+    in_channels: 1
+    num_classes: 2
+callbacks:
+  model_checkpoint:
+    _target_: pytorch_lightning.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: epoch_{epoch:03d}
+    monitor: val/mse
+    verbose: false
+    save_last: true
+    save_top_k: 1
+    mode: min
+    auto_insert_metric_name: false
+    save_weights_only: false
+    every_n_train_steps: null
+    train_time_interval: null
+    every_n_epochs: null
+    save_on_train_epoch_end: null
+  early_stopping:
+    _target_: pytorch_lightning.callbacks.EarlyStopping
+    monitor: val/mse
+    min_delta: 0.0
+    patience: 100
+    verbose: false
+    mode: min
+    strict: true
+    check_finite: true
+    stopping_threshold: null
+    divergence_threshold: null
+    check_on_train_epoch_end: null
+  model_summary:
+    _target_: pytorch_lightning.callbacks.RichModelSummary
+    max_depth: -1
+  rich_progress_bar:
+    _target_: pytorch_lightning.callbacks.RichProgressBar
+trainer:
+  _target_: pytorch_lightning.Trainer
+  default_root_dir: ${paths.output_dir}
+  min_epochs: 1
+  max_epochs: 200
+  accelerator: gpu
+  devices: 1
+  deterministic: false
+paths:
+  root_dir: ${oc.env:PROJECT_ROOT}
+  data_dir: /media/snatarajan/data/denct/femurv2/cross_validation64/fold0
+  log_dir: ${paths.root_dir}/logs/
+  output_dir: ${hydra:runtime.output_dir}
+  work_dir: ${hydra:runtime.cwd}
+extras:
+  ignore_warnings: false
+  enforce_tags: true
+  print_config: true
